@@ -16,7 +16,7 @@
 
 Откройте [cordic.uvprojx](examples/cordic/cordic.uvprojx) с **Arm Compiler 6** и пакетом `Keil.MDR1986VK01.1.3`. В исходном проекте указан компилятор 6.10.1. Проверьте компоненты **Startup**, **CMSIS Core** и **Compiler I/O** в **Manage Run-Time Environment**. У проекта есть цели **FLASH** и **RAM**. При запуске из Flash для вывода `printf()` настройте ITM Trace, как показано в статье. [Режимы CORDIC и вывод отладчика][cordic].
 
-Обе статьи написал **Илья Лампадов**. [CMSIS-DSP][fft] · [CORDIC][cordic].
+Обе статьи написал **Илья Лампадов** для портала Миландр (Milandr). [CMSIS-DSP][fft] · [CORDIC][cordic].
 
 [fft]: https://support.milandr.ru/base/primenenie/programmirovanie-32-razryadnykh-mk/osobennosti-primeneniya-know-how/55372/
 [cordic]: https://support.milandr.ru/base/primenenie/programmirovanie-32-razryadnykh-mk/osobennosti-primeneniya-know-how/24230/
